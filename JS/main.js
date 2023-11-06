@@ -35,7 +35,16 @@ In una fuzione calcolare il prezzo aggiornato del biglietto a seconda dell'età 
 
 - Altrimenti non viene effettuato nessuno sconto.*/
 
-
-
+if (etaUtente < 18) { //caso minorenne
+    prezzoBiglietto = prezzoBiglietto * 0.8;
+    console.log('Il tuo biglietto scontato per minorenni costa: ', prezzoBiglietto);
+}
+else if (etaUtente >= 65) { //caso over 65
+    prezzoBiglietto = prezzoBiglietto * 0.6;
+    console.log('Il tuo biglietto scontato per over 65 costa: ', prezzoBiglietto);
+}
+else {
+    console.log('Il tuo biglietto costa: ', prezzoBiglietto);
+}
 /*
 Indicare il prezzo finale con al massimo due numeri decimali. */

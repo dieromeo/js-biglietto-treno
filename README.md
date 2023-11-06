@@ -23,4 +23,7 @@ In una fuzione calcolare il prezzo aggiornato del biglietto a seconda dell'età 
 
 - Altrimenti non viene effettuato nessuno sconto.
 
-Indicare il prezzo finale con al massimo due numeri decimali.
+Indicare il prezzo finale con al massimo due numeri decimali usando la funzione
+``````
+.toFixed(2)
+``````

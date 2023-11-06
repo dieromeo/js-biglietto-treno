@@ -6,9 +6,19 @@ Effettuare dei prompt che chiedano all'utente:
 Entrambe saranno da inserire all'interno di delle variabili. */
 
 const km = parseInt(prompt("Inserire il numero di km da percorrere."));
+
+if (isNaN(km)) { // verificare che sia un numero
+    alert("Inserire un numero! Ricaricare la pagina");
+}
+
 console.log(km);
 
 const etaUtente = parseInt(prompt("Inserisci la tua età"));
+
+if (isNaN(etaUtente)) { // verificare che sia un numero
+    alert("Inserire un numero! Ricaricare la pagina");
+}
+
 console.log(etaUtente);
 
 
